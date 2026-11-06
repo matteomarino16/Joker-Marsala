@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galleria · Joker Pizza</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=8">
+  <meta name="theme-color" content="#140a1f">
+</head>
+<body data-title-it="Galleria · Joker Pizza" data-title-en="Gallery · Joker Pizza">
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="brand"><img src="scrittalogo.png" alt="Joker Pizza" class="brand-logo" width="777" height="416" loading="eager" fetchpriority="high" decoding="async"></a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link" data-i18n-en="Home">Home</a>
+        <a href="menu.html" class="nav-link" data-i18n-en="Menu">Menù</a>
+        <a href="galleria.html" class="nav-link" data-i18n-en="Gallery">Galleria</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="section-title" data-i18n-en="Gallery">Galleria</h1>
+        <p class="section-text" data-i18n-en="A look at our doughs and creations.">Uno sguardo ai nostri impasti e creazioni.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container gallery-grid">
+        <img src="galleria-pizza1.jpg" alt="Pizza 1" class="gallery-item" width="1800" height="1776" loading="eager" fetchpriority="high" decoding="async">
+        <img src="galleria-pizza2.jpg" alt="Pizza 2" class="gallery-item" width="1794" height="1800" loading="lazy" fetchpriority="low" decoding="async">
+        <img src="galleria-pizza3.jpg" alt="Pizza 3" class="gallery-item" width="1800" height="1778" loading="lazy" fetchpriority="low" decoding="async">
+        <img src="galleria-dall-alto.jpg" alt="Pizza top view" class="gallery-item" width="1800" height="1723" loading="lazy" fetchpriority="low" decoding="async">
+        <img src="galleria-di-lato.jpg" alt="Pizza side view" class="gallery-item" width="1800" height="880" loading="lazy" fetchpriority="low" decoding="async">
+      </div>
+    </section>
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button type="button" class="lightbox-close" aria-label="Chiudi" data-i18n-en-aria-label="Close">×</button>
+      <button type="button" class="lightbox-prev" aria-label="Precedente" data-i18n-en-aria-label="Previous">‹</button>
+      <img id="lightbox-image" class="lightbox-image" src="" alt="">
+      <button type="button" class="lightbox-next" aria-label="Successiva" data-i18n-en-aria-label="Next">›</button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Joker Pizza - Corso Calatafimi 52, Marsala, Sicilia</p>
+      <p><a href="tel:+393473701426">+39 3473701426</a> · <a href="tel:+3909231714111">+39 0923 1714111</a></p>
+      <p data-i18n-en="© 2026 Jokerpizza.it . All rights reserved.">© 2026 Jokerpizza.it . Tutti i diritti riservati.</p>
+      <p>Web by <a href="https://www.instagram.com/_matteomarino/" target="_blank" rel="noopener">Matteo Marino</a></p>
+    </div>
+  </footer>
+  <a href="tel:+393473701426" class="call-fab" aria-label="Chiama e ordina" data-i18n-en-aria-label="Call and order">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1v3.25a1 1 0 0 1-1 1C12.06 21.56 2.44 11.94 2.24 3.99a1 1 0 0 1 1-1H6.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.24 1.01l-2.21 2.21z"></path></svg>
+  </a>
+  <script src="script.js?v=7"></script>
+</body>
+</html>
